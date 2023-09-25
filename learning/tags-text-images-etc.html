@@ -14,6 +14,15 @@
         p {
             font-style: italic;
         }
+
+        .img-on-text {
+            width: 10;
+            height: 10;
+        }
+
+        .vernelho {
+            color: red;
+        }
     </style>
 </head>
 
@@ -23,15 +32,57 @@
     </h1>
 
     <p>
+        <del>vermelho</del> <ins>azul</ins> <s>riscad</s> <u>underline</u>
+        <small>small tag</small> 2 <sup>2</sup> H <sub>2</sub> O <br>
+        <q cite="www.google.com">Citação</q>
         <strong>Lorem</strong> ipsum dolor sit amet consectetur adipisicing elit.
         <b>Praesentium</b> soluta ea dolorem quod, unde dolore rerum nemo
         <em>accusantium</em> illum quae explicabo libero veritatis natus.
         <i>Suscipit</i> aliquam aut est aspernatur harum?
     </p>
+
+    <hr>
+
     <a href="https://www.google.com/" target="_blank">
-        <img src="data:image/png;base64,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"
-            alt="Google Logo" width="50" height="50">
+        <img class="img-on-text"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADjCAMAAADdXVr2AAABUFBMVEX////rQzU0qFNChfT7vAUtfPPm7f1Li/Q8gvR1o/b7uAD7ugD/vQDqMR7rPi/rQDIqpUzqOSkeo0XqLRj8wgDqNCLqMR8lpEnqOyv+9PPqNzdDg/wzqkQWokHsUkb//f32uLT+8tf1+P7y+fTzmJLwfHX4xsP0op385uTvbmX+6b380nMoevO63sJ8wow+rFtQsmnsT0LuYlf61tT1rajuamH97Ov5zsvxiYL93Jb8yUv7xDf94qrr8f5qnfb/+/PO3fyOsfeyyvqTzKBSqkzN59Oo1bLL5tFwvYJAieM2onTj8uc1pWE5m5k/jdXxjojxhGfyeiX8zmT2mhnsTzHvaSr0ih/4pRPuWy75rw7+7cn93Zr+8dS80fucu/j91n9yqjPmuRTAtSiPsDvRtyGmsjNtrEXduBqVsDmFvXU5lLQ4n4g9kceDq/djuHec0KhzRvYlAAALpElEQVR4nN2c2WPaSBLGhYxtgtEdAd4xmARzZcxhjI/MTJyDMTDL7mY3s8dcyczsvTsb/P+/rQ4wCCTUJZW6JX9PyYMj/VLV9VV3l8xxkev48LxeaZy8rV30y+WzVCp1dlbut2pvTxqV+vnhcfQvEJma9UarXNQEXVGKRVGSpJQtSRLFYlFRdEErllsnlfND1m8K1PF55bpscokLJC9JokmZqg0Sw3je6Bc1vegH5oAsKoLSb5yzfnU/XQ5agqCIALKlREUQLgZN1gieajb6gh4MbYmolRtxJLwcnGkKJCG9JBmEg0vWOE7VW3kUtgWhcFFnjXSvw0YqHy4nNyXqykksQnhewwzcUkYIa8xL6dWFVoyAzVZRu7hiCVcvC9hZ6ZQolJktwvpZPoqsdEoS+kwieN4XooczJWot6k7YbGnRpqUT8ITq1uL4LUU4U4pSoUdXERWqcClrCVLK0GafQkXZlJGhNOgalPNyKb0ceQCbZZ0RnCFJa0RL19BY5OVSej/CRvSwn2cKlzJXYGRdTL0YXXtJLu1tNHQnjBNzIb0fwanTcYthTXFKFNEraPMsDok5l4S9AK8otc+kwnWIisaaZ13aNR7dSezojALTwqKrMXc7Nwk1HLr4lMxVKX2cLeAF9c0PiZDojvvxpLvAgOOOyzGyu6WQ6Lh+POmQqmZM1x0SXSuWdFiOV4ulI2DRncTSzXUkN49fn2kKi+4qnnRInfQlk7NMP+Wx9gnliA4zQ/2nCVjHLDVMS5DEoqILphRRUvLmH/K6UgT/B6LRDQQsNFHJa6mLt4P6efPyvgk+bJ7XB9d9UdMh19YC1iH8OU5ZMSN10bjyPNc6vqyflAXS+SU0uuNwK2TBpvVPrvx3LYf1migQdLZ4FygIC68opADDRVfXut80E97ZUWg/lxThGjiycVzvb52wwKO7DNlpSnpqEOQYuVnzBtQGWHRcK9QWT9LPKkGf7AmISBcuNXUpMJypy5rb3Sgi3WGYASpFD/0iLuMkiHRcLXhqSto1xtVNRXG+glZB+EfnCmHoyhnSgNtha/UlMOm4ctDUlDBvFSvLSTXUu6BBUFMoiqiDX82yEgHdYdDU1C+wL0ztew3ce7zrgN1YFAM15q2UhpsSwYInoa7+e1U0XLqApiDqEY0E13FvmIMFT0zFYqLbX78PcrwiniXk258n6T/8Ck5XTggd9+7g8ddQvsTEjnuSTacff/tHEKCYSgod9+lB2tSfAHySmJCqwnEvsxZd+vGfyfm0OH6q5a7nc7z0478Q08XnKyZfpQ/SC77sN0QBzEc8GYupZ4vgWYAkDlFEmwqioM8O0qt8/g4hpRL0TfaT1eClSRxCY/7tGUDPD9Lr2u4QOpVvCrCU3sTb6hBSmfUbQ/RddoNuu0MkyPG4+45lnc/TIZREpSbnSuftEJKUoKrpkZtbHCJfYf3GILnnps3n4hDJqitG3dyqDYdIlOVtevp6ANccQkSapaSl59vx1h0iYcHjPvdeenO+7MoCFPus3xemlz7BswCXDiEw/T0AcHnbwirfwiGSVja5H/1y0+b71sbTK6zfFyjfpTfXgeUQQmLOxmy9JKSzF2AR8cskKvJxPQff16l8wgoL9wU5nrEAv2H9ulBtaThd9Cnr14XKZaPureyzsI97sUdLT83HkZj6Ct7LsHg3p7t0dPrafBygshje8FlYOu5RZoeOMjfm455B8LLfJwdv59R8nN92wYn3Q4Lwdvc489ISkpyh6WjivefIWzKL7vMk4WU+cH4HEWt4PyYK7xHQF8K7Hk28nX2gL2SfJApvh+N+ANkewuktRbzdpyDbw6gsVPH2YHjvEob3yu1izxsPoXBSxXtPeNBiC6Elo4qXeQPD+yJheB9Am9nsdw8bD8H2qOK9BnXUicP7uDbP8sDwHj10PMh+KPxBC2W8m4cdvQeP96Ar583DtvUbWFOGsFmPM17Ses5HILyD54nD+/4Bb2eNpgy0Ww9/w0C7pQbhpROHBzopyybrpMzY78GOcZN1zpl5A8RDcAa6R0mwOwaEm3W6B4GwGyKE2kIZDzQYgbDjo3tKDbydDd9U071jgN2tI5xT070hAk5GhL9EoXh9uc/Rn2uhezsLK50IzvdxP5QgeNbcDqh0onTVIfRmlxxv9435E5CJwFz6pypTvNeA1DZtD1Rbcj9/WWgzxbsB4J2+MH+CfBo391eel2dM8SB1adf+EcLaksv9jTdUmjKk2wMsPXtkjnQSPpf+0qTj5SFDPEhlsQsn4XcMub/zc8kM8SBLzy6cZMae+8eCjmdYXJ4CgmcPBJryXXy59D/5pbrM8N5D8DJP5z/lt2nI/cyvSh2zwoM0dFbHacnH+Uw/cIhV+EC5uags3PZh+LkfOMLHaPVB6qY9rGprizUYjco6nSE2eJB+et6zWPK2hqUfOMI3YkH3ChK8nf2Vn/SI3sGKHzhUYNFYQ0xvdel5bYqcfrAquUOfDhY8e7swl+tRfO5fHnCGSrfU8UDBs46RlnKpnRt+4BB1c3h1CqFb9NNzbYx1uviBc/XRTs99WPDeOH543dnd/YBheoI8z2ELlpzzLe5+4JRMs3qCGpbVjmyu1dPcg9y//eno7tuBx4fWBygOkfiBU+odNTrQVmFnZTN0r/ttwzY/cKpEq/d8AaTbyM3lptarUXGNH6VzF1jV3KiblqzOJZf7iZyOVnn5CAzemqfbMr3B3w/W8LoU+ICesLhcWNe7g+2NCiM+WLtiBe+V27/zJEviB+t8vYjpIEebc20WFkv/keF4UccvAJ1bYTE1LQXA42U+wvr5IgO/DnQrLJYmQcJntNeR8QWhc2xkHZqqgfAiO1vaC0Dn0rHcqxMsfHwpkouH9+CauePlCraqgVafocIMv8B8gFcVQ6feweO4USEgnywjn10/vQlEty14hroB8YwERd2/730SbIJia/A4bhw0PY0E7eJt4Iel/34SQfACm8M8gDgrcNwt8Ee/IJdNW9Wgq8+UjHF+PZ1YGVT4zVfgAHp73r3aAc3PVoEP6YHVoTrPH/nof1A+z4ZlRbMQ6WlI7YUAXMKZOvotjM+r23Q+Ikx6WoD8KNganHZU57OPfg3ZqLucQbipHbx6zlVQO+AqWm33Sht5I/O/Iw/g6SuyJwXtzVbfS+3eATrtanuiqq5PPSJ2iMxH0qeFpjNVKPWGRDGcjrzYLD5Sh8gQ1JX5A0Onpy1ZVWd3t1sWYvV2NJHVwtZsIXSI0/fej1nXKJQ7OAgLaqk764zG0+oSszqd3rZHnVm35INm/xMkDuHbrzjUCVs+nS9oQFqyYOZ/LMjES5zEIYhT01IvfHlBlK9DkFbNhUK7H65keatD7Pp3Y2u6RSovWNrmEISG7lB4d8fV0S87XgmaeeGPs6EhWvnEkadDQBfeXJ2Y8fHuDkHUSbtpFq/64u4Qu8TN2CZfrOyBd3OItRkPmOJlf/zmHiKzD/PzuPM5HSJD3kgnhm/FITJ+Z0cJ5Fs6hO/JGIFiVz/vHSJ87ExN4uZ/c4fAiJ2p2Pm77RBIdMb2Nmb9J2+eqKLRcdw4bvFDvtOf8rEqoAX0iYxZjAKoRjAtO4zNAixF8qXBmPzwJ0rJhYi+YqrGIUELEQ4K4R2ABhXuJfe6pl2mLRr6iMKG7rzvAyKXOokYztC0xyhDZUofto6YlFCsyQR/VTubV40RC3OuxF/TGVWTlwu0vxkcd6ktQbk0ZPDFYJsOoFzqMPpNDhQA5dKE4a+pcJtnQFSBWeQWup2oUTUyqsxiza1resdH0MnIpR6TL6zdNEYOoazK8MmfKFUd9UpIhLKqTtj+0iJXTUc9kkEOPza+047BinOVNT0VGFFWS12ySSaGur3r+U0auZAVVLUb37CtadrudEuqSrKzMGd6SursbpwQtHtN28NZVzYHkAryGqjxd7lgjirJvdlwtG3sLO6qTsftu2Fn0uv1uuZ3BN1utzebdIZ3o/Z4Gi3X/wELrulIJBZPVAAAAABJRU5ErkJggg=="
+            alt="Google Logo">
     </a>
+
+    <hr>
+
+    <blockquote cite="https://www.google.com/">
+        Aqui eu estou fazendo um bloco de citação no qual posso usar
+        o atributo cite= para inserir o link referente a citação.
+    </blockquote>
+    <hr>
+    <pre>
+        <code>
+            const teste = 1
+            const teste2 = 2
+            const soma = function(n1, n2){
+                return m1 + n2
+            }
+            console.log(soma(teste, teste2))
+            console.log("Esse é um código dentro da tag code")
+        </code>
+    </pre>
+    <hr>
+    <p>
+        <span class="vermelho">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit.
+        Repellendus,
+    <div class="vermelho">
+        Eu sou um bloco DIV!
+    </div> alias. A, fugit ipsam inventore, magni
+    aliquam molestiae quo, quibusdam excepturi nisi
+    quos natus ducimus possimus nesciunt aut maxime
+    sunt voluptate?
+    </p>
+    <hr>
+
+    <div class="vermelho">
+        Eu sou um bloco DIV!
+    </div>
 
 
 </body>
