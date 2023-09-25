@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Class</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table td,
+        table th {
+            text-align: left;
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+
+        table th {
+            background-color: #ddd;
+        }
+
+        table caption {
+            caption-side: top;
+            text-align: center;
+            font-style: italic;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        tfoot td {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #ddd;
+        }
+
+        .responsive-table {
+            max-width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <p>
+        Lorem ipsum dolor sit
+    </p>
+
+    <div class="responsive-table">
+        <table>
+            <caption>Tabela de Clientes</caption>
+            <thead>
+                <tr>
+                    <th>Names</th>
+                    <th>Email</th>
+                    <th>Cellphone</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Maya</td>
+                    <td>maya@gmail.com</td>
+                    <td>(11) 98888-8888</td>
+                </tr>
+                <tr>
+                    <td>Alessandra</td>
+                    <td>alessandra@gmail.com</td>
+                    <td>(11) 98778-8778</td>
+                </tr>
+                <tr>
+                    <td>Anadeli</td>
+                    <td>anadeli@gmail.com</td>
+                    <td>(11) 94555-8888</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2" rowspan="2"></td>
+                    <td>Total:</td>
+                </tr>
+                <tr>
+                    <td>3 cadastros</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</body>
+
+</html>
