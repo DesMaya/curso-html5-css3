@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Part 1
+.father h1+p {
+    color: red;
+}
+
+.father p+h1 {
+    color: blue;
+}
+
+.father h1~p {
+    color: red;
+}
+*/
+
+/* Part 2
+.father .one~.two {
+    color: red;
+}
+*/
+
+[my-attr="value"] {
+    color: red;
+}
+
+[checked] {
+    width: 50px;
+    height: 50px;
+    color: purple;
+}

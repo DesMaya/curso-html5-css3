@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Part 1
+p {
+    color: red;
+}
+
+h1, p {
+    color: purple;
+}
+
+body div section p,
+body div section h1 {
+    color: red;
+}
+*/
+/* Part 2
+.color-red {
+    color: red;
+}
+
+body div.main-content h2.heading {
+    font-style: italic;
+    color: red;
+}
+*/
+div {
+    color: initial;
+    margin-left: 20px;
+}
+
+.father {
+    color: red;
+}
+
+.father .son {
+    color: blue;
+}
+
+.father.son {
+    color: purple;
+}
+
+.father > .son > .son{
+    color: yellow;
+}
