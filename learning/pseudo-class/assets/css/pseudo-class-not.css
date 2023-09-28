@@ -1,0 +1,8 @@
+p:not(.middle) {
+    color: pink;
+}
+
+input:not(:checked) + p {
+    background-color: red;
+    color: white;
+}
