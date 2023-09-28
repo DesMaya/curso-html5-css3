@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+}
+/*
+.father {
+    
+    height: 300vh;
+    
+}
+
+.son1, .son2, .son3 {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 0, 0, 1);
+    margin: 10px;
+}
+
+.son1 {
+    position: relative;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+    width: 100%;
+    height: 100%;
+    
+    top: 100px;
+    left: 200px;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -150px;
+    z-index: 2;
+    
+}
+
+.son2 {
+    background-color: blue;
+    /*
+    float: left;
+    
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.son3 {
+    background-color: pink;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.other {
+    font-size: 50px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.father {
+    height: 300vh;
+}
+
+.son1, .son2, .son3 {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 0, 0, 1);
+    margin: 10px;
+}
+
+.son1 {
+
+}
+
+.son2 {
+    background-color: yellow;
+    position: fixed;
+    top: 30%;
+    right: 0;
+    z-index: 1;
+
+}
+
+.son3 {
+    background-color: pink;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.other {
+    font-size: 50px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+*/
+
+ul {
+    height: 100px;
+    overflow-y: auto;
+}
+
+ul li.sticky {
+    position: sticky;
+    background-color: gray;
+    top: 0;
+}
