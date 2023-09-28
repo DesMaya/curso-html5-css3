@@ -1,2 +1,1 @@
-
-Este é um repositório contendo todo o conteúdo de HTML5 e CSS3 que foi estudado durante o curso
+This is a repository containing all the HTML5 and CSS3 content that was studied during the course
